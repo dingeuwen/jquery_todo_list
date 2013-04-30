@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- 
+Create a client-side TODO list application in JavaScript.
+
+Bonus:
+  - Support due dates on list items (consider using jQuery UI Datepicker)
+  - Animate an item moving from "TODO" to "Completed" and "Completed" to "TODO" (consider using jQuery UI)
+  - Animate deleting an item
+
+-->
+
+<h3> This is a to-do list application written using jQuery </h3>
+
+
+  <fieldset>
+    <legend>Enter New Task</legend>
+    <!-- <label>Task</label> -->
+    <input type="text" class="input-medium search-query" id="new_field" placeholder="..">
+    <!-- <span class="help-block">blah blah</span> -->
+<!--     <label class="checkbox">
+      <input type="checkbox"> Check me out
+    </label> -->
+    <button type="submit" class="btn" id="add_button">Enter</button>
+  </fieldset>
+
+<h3>To-Do</h3>
+<div id="to_do_list">
+
+</div>
+
+<h3>Completed</h3>
+<div id="completed_list">
+
+</div>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/to_do_list.js" type="text/javascript"></script>
+</body>
+</html>
